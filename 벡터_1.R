@@ -71,19 +71,3 @@ pi #output:3.141593
 month <- c(12,9,3,5)
 month #output:12 9 3 5
 month.name[month] #output:"December"  "September" "March"     "May"  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

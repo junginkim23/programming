@@ -78,24 +78,3 @@ food <- c("Pie","Juice","Cake")
 #paste ÇÔ¼ö
 paste(fruit,food) #output:"Apple Pie"       "Banana Juice"    "Strawberry Cake"
 paste(fruit,"Juice") #output:"Apple Juice"      "Banana Juice"    "Strawberry Juice"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
