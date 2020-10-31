@@ -129,36 +129,3 @@ city.distance.mat[c("Seoul","Gwangju"),]
         Seoul Busan Daegu Gwangju Jeonju
 Seoul       0   331   238     269    195
 Gwangju   269   194   171       0     77
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
