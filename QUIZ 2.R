@@ -18,3 +18,15 @@ survival1 <- patient[["Survival"]]
 target <- data.frame(rarp1,survival1)
 colnames(target) <- c("RARP1","Survival")
 rownames(target) <- rownames(patient)
+
+#(4)ggplot() 함수를 사용해서 3번 문제에서 저장한 target 변수에 저장된 유전자-생존기간 정보를 scatter plot 그래프로 표현하고 추세선을 그리는 코드를 작성하세요.
+install.packages("ggplot2")
+library("ggplot2")
+ggplot(data=target,aes(x=RARP1,y=Survival))+
+  geom_point(size=2)+ 
+  geom_smooth() +
+  labs(title = "RARP1-Survival"
+       ,x="RARP1"
+       ,y="Survival")
+
+
