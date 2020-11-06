@@ -1,0 +1,15 @@
+*pull
+git pull origin master: 지정 해놓은 Repository에서 저장소에 있는 모든 것을 끌어온다. 
+
+*push
+git status: 현재 Git과의 상태를 Check! 
+
+git add : 변경된 파일들을 모두 tracking ex)git add . -> 이 점은 파일에 있는 tracking되지 않는 모든 파일을 track 하겠다는 것이다. 
+
+git commit-m "message" : 인식 할 수 있는 commit을 달아줍니다. 
+
+git push origin + master : 실제로 git에 push! 
+
+*connection
+git init 
+git remote add origin repository address
